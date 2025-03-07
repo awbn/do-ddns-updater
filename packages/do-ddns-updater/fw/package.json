@@ -1,0 +1,15 @@
+{
+  "name": "fw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --runInBand --detectOpenHandles --verbose false"
+  },
+  "description": "Update Digital Ocean Firewall rules",
+  "dependencies": {
+    "dots-wrapper": "^3.11.15"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

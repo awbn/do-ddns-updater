@@ -1,0 +1,6 @@
+packages:
+  - name: do-ddns-updater
+    functions:
+      - name: fw
+        runtime: 'nodejs:default'
+        web: true

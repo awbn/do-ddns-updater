@@ -1,0 +1,9 @@
+__deployer__.zip
+__pycache__/
+.deployed
+.DS_Store
+.nimbella
+*.bak
+coverage/
+lib/
+node_modules
