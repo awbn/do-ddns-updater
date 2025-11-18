@@ -7,7 +7,7 @@
   },
   "description": "Update Digital Ocean Firewall rules",
   "dependencies": {
-    "dots-wrapper": "^3.11.15"
+    "dots-wrapper": "^3.12.5"
   },
   "devDependencies": {
     "jest": "^30.0.0"
