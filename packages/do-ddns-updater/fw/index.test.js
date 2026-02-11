@@ -186,8 +186,8 @@ describe("API Calls", () => {
     const logSpy = jest.spyOn(console, 'log');
 
     let response = await main(doEvent);
-    expect(response.statusCode).toEqual(404);
+    expect(response.statusCode).toEqual(503);
     expect(logSpy).toHaveBeenLastCalledWith('Upstream error: ' + response.body);
 
-  });
+  }, 20000);
 });

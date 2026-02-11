@@ -127,7 +127,7 @@ async function main(event) {
       console.log('Upstream error: '+ error.message);
       return {
         body: error.message,
-        statusCode: error.status
+        statusCode: error.response?.status || 503
       };
     } else {
       console.log('Error updating record: ' + error.message);
