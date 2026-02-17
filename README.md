@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This has been replaced by https://github.com/awbn/cloudfw-ddns
+
 # DDNS Updater for Digital Ocean Cloud Firewalls
 
 A Digital Ocean serverless function that can update Digital Ocean cloud firewall rules leveraging a DDNS updater.
